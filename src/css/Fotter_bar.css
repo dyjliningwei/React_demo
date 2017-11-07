@@ -1,0 +1,35 @@
+.fotter_bar{
+    position: fixed;
+    height: 2.5rem;
+    border-top: 1PX solid #ddd;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+.fotter_bar ul{
+    display: flex;
+    height: 100%;
+}
+.fotter_bar ul li{
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.fotter_bar ul li a{
+    display: block;
+    height: 100%;
+    font-size: 0.65rem;
+    color: #555;
+    padding-top: 0.25rem;
+}
+.fotter_bar ul li a .iconfont{
+    font-size: 20px;
+}
+.fotter_bar ul li a p{
+    margin-top: 0.1rem;
+}
